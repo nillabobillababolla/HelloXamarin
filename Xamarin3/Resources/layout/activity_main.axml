@@ -1,0 +1,22 @@
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/tableLayout1">
+    <TextView
+        android:text="0"
+        android:fontFamily="monospace"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"
+        android:id="@+id/txtSayi"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:text="Arttır"
+        android:id="@+id/btnArttir" />
+    <Button
+        android:text="Azalt"
+        android:id="@+id/btnAzalt" />
+</TableLayout >
